@@ -1,0 +1,10 @@
+#include<stdio.h>
+main()
+{short int minutes;
+short int b,c;
+printf("Enter the number of minutes");
+scanf("%d",&minutes);
+b=(minutes/60);
+c=minutes-(b*60);
+printf("The time in hours and minutes is= %d hours and %d minutes",b,c);
+}
